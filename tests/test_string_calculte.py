@@ -1,4 +1,5 @@
-def test_calc():
-    stringcal()
-def stringcal():
-    pass
+from str.string_calculte import stringcalcult
+
+
+def test_calculte_string_0_return_0():
+    assert stringcalcult("0")==0
