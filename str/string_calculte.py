@@ -11,4 +11,4 @@ def stringcalcult(number:str)->int:
      if part:
       total += int(part)
 
-     return total
+    return total
