@@ -1,6 +1,14 @@
-def stringcalcult(nubmer:str)->int:
-    if nubmer=="1":
-        return 1
-    if nubmer=="2":
-        return 2
-    return  0
+def stringcalcult(number:str)->int:
+
+    if not number or number.strip() == "":
+     return 0
+
+    parts = number.split(",")
+
+    total = 0
+    for part in parts:
+     part = part.strip()
+     if part:
+      total += int(part)
+
+     return total
